@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Anna THE DEPILATION</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light header-navbar">
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="" width="300" height="83" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="navbarTogglerDemo02"
+          >
+            <button
+              type="button"
+              class="btn d-flex align-items-center button-r justify-content-around"
+            >
+              <span>Записаться онлайн</span>
+              <div
+                class="button-arrow ml-1 d-flex align-items-center justify-content-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                >
+                  <path
+                    d="M1.83794 17.5138L17.5138 1.83798M17.5138 1.83798L1.83803 1.83787M17.5138 1.83798L17.5138 15.5243"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+            <button class="btn btn-call">
+              <img src="./img/call.png" alt="call" />
+            </button>
+            <button
+              class="btn d-flex align-items-center justify-content-center"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="75"
+                height="30"
+                viewBox="0 0 75 30"
+                fill="none"
+              >
+                <g filter="url(#filter0_d_186_47)">
+                  <line
+                    x1="5"
+                    y1="1"
+                    x2="70"
+                    y2="1"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <line
+                    x1="5"
+                    y1="11"
+                    x2="70"
+                    y2="11"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <line
+                    x1="22"
+                    y1="21"
+                    x2="70"
+                    y2="21"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_186_47"
+                    x="0"
+                    y="0"
+                    width="75"
+                    height="30"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_186_47"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_186_47"
+                      result="shape"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </button>
+            <div
+              class="modal fade menu-modal"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="row hero-wrap">
+        <div
+          class="col d-flex flex-column align-items-center justify-content-center hero-text"
+        >
+          <h2>Приветствую!</h2>
+          <p>
+            Вы попали на сайт, благодаря которому сможете более глубоко
+            окунуться в мир депиляции как шугаринга,  так и воска.
+          </p>
+          <p>
+            Меня зовут Балабаева Анна. И вот уже как на протяжении  4-х лет я
+            работаю мастером депиляции.
+          </p>
+          <p>
+            За это время я уже успела принять участие в нескольких чемпионатах
+            города Москвы и Санкт-Петербурга и стать призером в номинации
+            “Эксперт шугаринга” - 2-е место.
+          </p>
+          <p>
+            Именно хороший опыт как теоретической, так и в  практической части
+            подтолкнул менять передавать свои знания и опыт через обучение с
+            нуля и повышение квалификации уже мастерам с опытом работы.
+          </p>
+        </div>
+        <div class="col hero-image"></div>
+        <div class="hero-title d-flex flex-column">
+          <span class="hero-title-descr">СТУДИЯ ДЕПИЛЯЦИИ</span>
+          <span class="hero-title-name">Анны Балабаевой</span>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="31"
+          height="61"
+          viewBox="0 0 31 61"
+          fill="none"
+          class="mouse-icon"
+        >
+          <path
+            d="M5 53L15.7442 60L26 53"
+            stroke="black"
+            stroke-linecap="round"
+          />
+          <rect x="0.5" y="1.5" width="30" height="47" rx="15" stroke="black" />
+          <path d="M15 19L15 12" stroke="black" stroke-linecap="round" />
+        </svg>
+      </div>
+    </header>
+    <main>
+      <section class="previos container">
+        <div class="previos-content">
+          <div class="row previos-content-wrap">
+            <div class="col previos-content-img">
+              <img src="./img/depilation-image.png" alt="depilation" />
+            </div>
+            <div class="col previos-content-text">
+              <h2><span>ПОЧЕМУ ИМЕННО</span><br />ДЕПИЛЯЦИЯ?</h2>
+              <p>
+                Данная профессия НИКОГДА не потеряет свою актуальность, так как
+                волосы у людей будут расти всегда!
+              </p>
+              <p>
+                И так как этот вид депиляции является самым безопасным и имеет
+                минимум противопоказаний, вы сможете работать с беременными
+                девушками, с подростками, что является противопоказанием к
+                другим методам удаления волос,  плюс - эффект от процедуры вы
+                видите сразу.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="previos-card-section">
+          <div class="previos-card-title">
+            <span>ДЕПИЛЯЦИЯ ШУГАРИНГ</span>
+            <span>VS</span>
+            <span>ДЕПИЛЯЦИЯ ВОСКОМ</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <p>
+                  Это вид депиляции, где удаление нежелательных волос происходит
+                  при помощи нанесения на кожу против роста волос сахарной
+                  пастой.
+                </p>
+                <p>
+                  Данный вид депиляции относят к SPA-процедуре, т.к. шугаринг
+                  также убирает верхний ороговевший слой кожи, за счет этого
+                  кожа становится более бархатистой
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <p>
+                  Это также удаление нежелательных волос,  но только воском.
+                </p>
+                <p>
+                  Данный метод удаления волос отличается технически от
+                  шугаринга, он наносится по росту волос и удаляется против
+                  роста волос.
+                </p>
+                <p>
+                  В большинстве своем случаев для вас, как для клиента, он будет
+                  отличаться по болевому порогу: кому-то менее болезненно
+                  воском, а кому-то шугаринг. Поэтому при первичной депиляции
+                  оставьте право выбора материала за мастером. Он подберет для
+                  вас тот, то больше подходит для вашей кожи и волоса.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-me container">
+        <div class="row d-flex align-items-center">
+          <div class="col-7">
+            <h2>
+              Что вам еще нужно знать обо мне, <br /><span>как о мастере?</span>
+            </h2>
+            <ul>
+              <li>
+                <p>
+                  То, что я работаю с абсолютно любыми частями тела (бикини,
+                  руки, ноги, подмышечные впадины, различные области лица
+                  включая нос).
+                </p>
+              </li>
+              <li>
+                <p>
+                  Работаю как с женщинами, так и с мужчинами, подростками,
+                  беременными женщинами.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Расскажу и подберу грамотный уход для вашей кожи, а также
+                  расскажу, по какой причне у вас возникают вросшие волосы,
+                  сухость кожи и как с этим бороться.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-5 about-me-img">
+            <img src="./img/Group 35899.png" alt="master" />
+          </div>
+        </div>
+        <div class="row gy-4 mt-5">
+          <div class="col-6">
+            <div class="card">
+              <h3>БАЗОВОЕ ОБУЧЕНИЕ ВОСКУ ЛИБО ШУГАРИНГ</h3>
+              <p>
+                Данные обучения я преподаю сугубо индивидуально, чтобы уделить
+                вам максимум своего внимания и отдачей нужной вам информации.
+              </p>
+              <p>Базовое обучение длится 2 дня.</p>
+              <a href="#">подробнее</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <h3>ПОВЫШЕНИЕ КВАЛИФИКАЦИИ</h3>
+              <p>
+                Повышение формируется исходя из вашего запроса,  с какой зоной у
+                вас возникают сложности, либо хотите изучить новые схемы работ,
+                новые техники, например хотите делать ту или иную зону быстрее,
+                работа со сложными клиентами (беременные, plus SIZE).
+              </p>
+              <p>Повышение проводится 1 день.</p>
+              <a href="#">подробнее</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <h3>МАСТЕР-КЛАССЫ</h3>
+              <p>
+                Раз в 1,5-2 месяца я провожу мастер-классы. Вы можете на них
+                узнать о различных схемах и техниках работы, задать те или иные
+                вопросы мне.
+              </p>
+              <p>
+                Также мастер-классы можно посетить и людям. которые только
+                рассматривают для себя данную профессию.
+              </p>
+              <a href="#">подробнее</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <h3>ПОДГОТОВКА К ЧЕМПИОНАТАМ</h3>
+              <p>
+                Чемпионаты - это огромный рост для вас как для мастера. На них
+                вы можете получить большой опыт в работе, обратную связь от
+                судей, которые так же, как и вы, когда-то участвовали в
+                чемпионатах и имеют за плечами накопленный опыт, знакомство с
+                другими мастерами, спикерами, преподавателями.
+              </p>
+              <p>Подготовка проводится по индивидуальному графику.</p>
+              <a href="#">подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
